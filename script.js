@@ -90,7 +90,12 @@ if (btn3 && playersRangeElement) {
               desc.style.display = "block";
               footballer.style.display = "block";
               footballer.innerHTML = shuffledRoles[counter];
+              if(shuffledRoles[counter] == "Imposter")
+              {
+                footballer.style.color = "red";
+              }
             } else {
+              footballer.style.color = "white";
               showCard.style.display = "block";
               card.style.backgroundColor = "black";
               desc.style.display = "none";

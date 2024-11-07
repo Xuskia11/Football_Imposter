@@ -180,3 +180,10 @@ input {
         width: 200px;
     }
 }
+
+@media(width < 1000px){
+    .card {
+        height: 400px;
+        width: 300px;
+    }
+}
