@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg,#12b8b5bd ,#b2c508bd ,#149f07bd ,#a71212a1 );
+}
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title {
+    width: 75%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+span {
+    font-size: 45px;
+}
+
+.main {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.football{
+    width: 269px;
+    height: 371px;
+    background: url(/images/football.png);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.box{
+    width: 269px;
+    height: 371px;
+
+    background: url(/images/BOX.png);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.ufc{
+    width: 269px;
+    height: 371px;
+    background: url(/images/ufc.png);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.basketball{
+    width: 269px;
+    height: 371px;
+    border-radius: 15px;
+    background: url(/images/basketball.png);
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    height: 67px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footercontent {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxColor{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#00000035, #670a0aa1);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.footballColor{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0ae31900, #12b8b5bd);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.ufcColor{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#0ae31900, #149f07bd);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.basketballColor{
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#d7d7180b, #b2c508bd);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.des {
+    font-size: 25px;
+    color: white;
+}
+
+
+@media (width < 1100px){
+    .container {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .footercontent {
+        margin-top: 1900px;
+    }
+    .title {
+        text-align: center;
+    }
+   
+}

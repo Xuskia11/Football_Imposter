@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/football.css">
+    <title>Document</title>
+</head>
+<body id="body">
+     <div id="main" class="main">
+        <div class="container">
+            <div id="btn1" class="button1">
+                Singleplayer
+            </div>
+            <div id="btn2" class="button2">
+                Multiplayer
+            </div>
+        </div>
+     </div>
+     <div id="option" style="display: none;" class="container2">
+        <div id="playerOption" style="display: none;" class="playerOption">
+            <input id="playersRange" type="text" placeholder="3-10 Players">
+            <button id="btn3" class="btn">Submit</button>
+        </div>
+     </div>
+     <div id="main2" style="display: none;" class="main2">
+        <div class="container2">
+            <div id="card" class="card">
+                <p id="desc" style="display: none; font-size: 45px;">Your Card</p>
+                <div class="footballer">
+                    <p style="color: white; font-size: 40px; transition: 1s; text-align: center;" id="showCard">Click to show card</p>
+                    <p style="font-size: 40px; display: none;" id="footballer"></p>
+                    <button style="display: none;" id="restart"><a style="text-decoration: none; color: white;" href="">Restart</a></button>
+                </div>
+            </div>
+            <p id="countDown"></p>
+        </div>
+    </div>
+
+     
+
+     <script type="module" src="./script.js"></script>
+</body>
+</html>
