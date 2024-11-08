@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button1 {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50px;
+    font-size: 50px;
+    cursor: pointer;
+    color: blue;
+}
+.button2 {
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 50px;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+.main {
+    background-image: url(/images/ufcBackBlur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .7s;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: .5s;
+}
+.container2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerOption {
+    display: flex;
+}
+
+input {
+    background-color: transparent;
+    height: 80px;
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    border: 2px solid black;
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    height: 80px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid black;
+    position: relative;
+    bottom: 4px;
+    transition: .5s;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: lime;
+    cursor: pointer;
+}
+
+.main2 {
+    background-image: url(/images/ufcBackBlur.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    height: 500px;
+    width: 400px;
+    border-radius: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.footballer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#restart {
+    width: 100px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    transition: .5s;
+}
+
+#restart:hover {
+    background-color: green;
+}
+
+@media(width < 1000px) {
+    .btn {
+        text-align: center;
+    }
+    #playersRange {
+        width: 300px;
+    }
+}
+
+@media(width < 400px) {
+    #playersRange {
+        width: 200px;
+    }
+}
+
+@media(width < 1000px){
+    .card {
+        height: 400px;
+        width: 300px;
+    }
+}
