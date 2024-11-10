@@ -55,7 +55,7 @@ let playersRange = null;
 
 if (singlePlayer && body && main && playerOption && option && multiplayer) {
   singlePlayer.addEventListener("click", function () {
-    body.style.backgroundImage = "url(./images/ufcBack.jpeg)";
+    body.style.backgroundImage = "url(./images/boxBack.png)";
     main.style.display = "none";
     singlePlayer.style.display = "none";
     multiplayer.style.display = "none";

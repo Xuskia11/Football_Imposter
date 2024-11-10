@@ -38,7 +38,7 @@ body {
     border-radius: 50px;
     font-size: 50px;
     cursor: pointer;
-    color: blue;
+    color: rgb(92, 30, 30);
 }
 .button2 {
     width: 300px;
@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: rgb(92, 30, 30);
     border-radius: 50px;
     color: black;
     font-size: 50px;
@@ -55,7 +55,7 @@ body {
 
 
 .main {
-    background-image: url(/images/ufcBackBlur.png);
+    background-image: url(/images/basketballbackblur.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: .7s;
@@ -109,7 +109,7 @@ input {
 }
 
 .main2 {
-    background-image: url(/images/ufcBackBlur.png);
+    background-image: url(/images/basketballbackblur.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

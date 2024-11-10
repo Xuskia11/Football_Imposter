@@ -55,7 +55,7 @@ body {
 
 
 .main {
-    background-image: url(/images/ufcBackBlur.png);
+    background-image: url(/images/boxBackBlur.png);
     background-repeat: no-repeat;
     background-size: cover;
     transition: .7s;
@@ -109,7 +109,7 @@ input {
 }
 
 .main2 {
-    background-image: url(/images/ufcBackBlur.png);
+    background-image: url(/images/boxBackBlur.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
