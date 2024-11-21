@@ -46,6 +46,10 @@ const wellKnownPlayers = [
   "Bernard Hopkins",
   "Andre Ward",
   "Gervonta Davis",
+  "Artur Beterbiev",
+  "Dmitry Bivol",
+  "Ryan Garcia",
+  "Avtandil Khurtsidze"
 ];
 
 let random = Math.floor(Math.random() * wellKnownPlayers.length);
